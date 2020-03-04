@@ -1,6 +1,7 @@
 console.log("jestem");
 
 const showUsers = results => {
+  document.querySelector(".user-list").innerHTML = "";
   console.log(results);
   results.forEach(user => {
     const element = document.createElement("div");
